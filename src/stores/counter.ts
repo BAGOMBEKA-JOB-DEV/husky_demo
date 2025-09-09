@@ -8,9 +8,6 @@ export const useCounterStore = defineStore('counter', () => {
     count.value++
   }
 
-  if(import.meta.hot === true){
-    import.meta.hot.accept(acceptHMRUpdate(useCounterStore, import.meta.hot))
-  }
 
   return { count, doubleCount, increment }
 })

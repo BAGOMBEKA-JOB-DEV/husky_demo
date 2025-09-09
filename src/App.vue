@@ -1,7 +1,7 @@
 <script setup lang="ts">
-const hello = ref('Hello Vue 3 + TypeScript + Vite');
+const msg = 'Hello Vite + Vue!'
 Hello function(){
-  console.log(hello);
+  console.log('Hello World')
 }
 </script>
 
@@ -14,5 +14,4 @@ Hello function(){
 </template>
 
 <style scoped>
-const counter = ref(0);
 </style>
