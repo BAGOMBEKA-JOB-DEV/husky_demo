@@ -1,4 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const hello = ref('Hello Vue 3 + TypeScript + Vite');
+Hello function(){
+  console.log(hello);
+}
+</script>
 
 <template>
   <h1>You did it!</h1>
@@ -8,4 +13,6 @@
   </p>
 </template>
 
-<style scoped></style>
+<style scoped>
+const counter = ref(0);
+</style>
