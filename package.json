@@ -56,7 +56,5 @@
     "vitest": "^3.2.4",
     "vue-tsc": "^3.0.4"
   },
-"lint-stagged": {
-    "*.{js,ts,vue}": "npm run lint"
-  }
+  "lint-staged": "{\"*.{js,ts,vue}\": \"npm run lint\"}"
 }
