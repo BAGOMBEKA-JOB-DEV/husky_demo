@@ -1,9 +1,4 @@
-<script setup lang="ts">
-const msg = 'Hello Vite + Vue!'
-Hello function(){
-  console.log('Hello World')
-}
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <h1>You did it!</h1>
@@ -13,5 +8,4 @@ Hello function(){
   </p>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
